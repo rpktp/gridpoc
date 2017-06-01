@@ -1,0 +1,101 @@
+$total-columns: 12;
+$gutter: 1.6rem;
+
+$breakpointList: xs s m l xl;
+
+@mixin breakpoint($point) {
+	@if $point == xl {
+		@media screen and (min-width: 1441px) { @content ; }
+	}
+	@else if $point == l {
+		@media screen and (min-width: 1025px) and (max-width: 1440px) { @content ; }
+	}
+	@else if $point == m {
+		@media screen and (min-width: 768px) and (max-width: 1024px) { @content ; }
+	}
+	@else if $point == s {
+		@media screen and (min-width: 360px) and (max-width: 767px) { @content ; }
+	}
+	@else if $point == xs {
+		@media only screen and (max-width: 359px)  { @content ; }
+	}
+}
+
+@mixin breakpointMin($point) {
+	@if $point == xl {
+		@media screen and (min-width: 1441px) { @content ; }
+	}
+	@else if $point == l {
+		@media screen and (min-width: 1025px) { @content ; }
+	}
+	@else if $point == m {
+		@media screen and (min-width: 768px) { @content ; }
+	}
+	@else if $point == s {
+		@media screen and (min-width: 360px) { @content ; }
+	}
+	@else if $point == xs {
+		@media only screen and (min-width: 0)  { @content ; }
+	}
+}
+
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 $gutter;
+
+	&:after {
+		clear: both;
+		content: '';
+		display: block;
+	}
+
+	@include breakpoint(xl) {
+		width: 100%;
+		max-width: 160rem;
+	}
+	@include breakpoint(l) {
+		width: 100%;
+		max-width: 120rem;
+	}
+	@include breakpoint(m) {
+		width: 100%;
+	}
+	@include breakpoint(s) {
+		width: 100%;
+	}
+	@include breakpoint(xs) {
+		width: 100%;
+	}
+}
+
+/* generate columns */
+
+@each $breakpoint in $breakpointList {
+	@for $i from $total-columns through 1 {
+		@include breakpointMin(#{$breakpoint}) {
+		    .col-#{$breakpoint}-#{$i} {
+		    	padding: 0 $gutter;
+		    	flex: 0 0 (100% / $total-columns) * $i;
+		        box-sizing: border-box;
+		    }
+		}
+	}
+}
+
+
+/* generate offsets */
+
+@each $breakpoint in $breakpointList {
+	@for $i from ($total-columns - 1) through 1 {
+		@include breakpointMin(#{$breakpoint}) {
+		    .col-#{$breakpoint}-offset-#{$i} {
+		    	margin-left: (100% / $total-columns) * $i;
+		    }
+		}
+	}
+}
+

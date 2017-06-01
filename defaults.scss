@@ -1,0 +1,33 @@
+@import "plumber/plumber";
+
+
+@include plumber-set-defaults(
+	$grid-height: 1rem,
+	$baseline: 0.112061,
+	$font-size: 1.6,
+	$line-height: 3,
+	$leading-top: 1,
+	$leading-bottom: 2
+);
+
+$base-font: 62.5%;
+
+html {
+	font-size: $base-font;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'helvetica nueu', 'helvetica', 'arial';
+	padding: 0;
+	margin: 0;
+	@include plumber();
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+@import 'grid'

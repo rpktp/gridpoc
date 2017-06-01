@@ -1,0 +1,390 @@
+@media only screen and (max-width: 359px) {
+  .col-xs-12 {
+    padding: 0 1.6rem;
+    flex: 0 0 8.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-11 {
+    padding: 0 1.6rem;
+    flex: 0 0 9.09091%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-10 {
+    padding: 0 1.6rem;
+    flex: 0 0 10%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-9 {
+    padding: 0 1.6rem;
+    flex: 0 0 11.11111%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-8 {
+    padding: 0 1.6rem;
+    flex: 0 0 12.5%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-7 {
+    padding: 0 1.6rem;
+    flex: 0 0 14.28571%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-6 {
+    padding: 0 1.6rem;
+    flex: 0 0 16.66667%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-5 {
+    padding: 0 1.6rem;
+    flex: 0 0 20%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-4 {
+    padding: 0 1.6rem;
+    flex: 0 0 25%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-3 {
+    padding: 0 1.6rem;
+    flex: 0 0 33.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-2 {
+    padding: 0 1.6rem;
+    flex: 0 0 50%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media only screen and (max-width: 359px) {
+  .col-xs-1 {
+    padding: 0 1.6rem;
+    flex: 0 0 100%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-12 {
+    padding: 0 1.6rem;
+    flex: 0 0 8.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-11 {
+    padding: 0 1.6rem;
+    flex: 0 0 9.09091%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-10 {
+    padding: 0 1.6rem;
+    flex: 0 0 10%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-9 {
+    padding: 0 1.6rem;
+    flex: 0 0 11.11111%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-8 {
+    padding: 0 1.6rem;
+    flex: 0 0 12.5%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-7 {
+    padding: 0 1.6rem;
+    flex: 0 0 14.28571%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-6 {
+    padding: 0 1.6rem;
+    flex: 0 0 16.66667%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-5 {
+    padding: 0 1.6rem;
+    flex: 0 0 20%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-4 {
+    padding: 0 1.6rem;
+    flex: 0 0 25%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-3 {
+    padding: 0 1.6rem;
+    flex: 0 0 33.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-2 {
+    padding: 0 1.6rem;
+    flex: 0 0 50%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 360px) {
+  .col-s-1 {
+    padding: 0 1.6rem;
+    flex: 0 0 100%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-12 {
+    padding: 0 1.6rem;
+    flex: 0 0 8.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-11 {
+    padding: 0 1.6rem;
+    flex: 0 0 9.09091%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-10 {
+    padding: 0 1.6rem;
+    flex: 0 0 10%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-9 {
+    padding: 0 1.6rem;
+    flex: 0 0 11.11111%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-8 {
+    padding: 0 1.6rem;
+    flex: 0 0 12.5%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-7 {
+    padding: 0 1.6rem;
+    flex: 0 0 14.28571%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-6 {
+    padding: 0 1.6rem;
+    flex: 0 0 16.66667%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-5 {
+    padding: 0 1.6rem;
+    flex: 0 0 20%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-4 {
+    padding: 0 1.6rem;
+    flex: 0 0 25%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-3 {
+    padding: 0 1.6rem;
+    flex: 0 0 33.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-2 {
+    padding: 0 1.6rem;
+    flex: 0 0 50%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 768px) {
+  .col-m-1 {
+    padding: 0 1.6rem;
+    flex: 0 0 100%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-12 {
+    padding: 0 1.6rem;
+    flex: 0 0 8.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-11 {
+    padding: 0 1.6rem;
+    flex: 0 0 9.09091%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-10 {
+    padding: 0 1.6rem;
+    flex: 0 0 10%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-9 {
+    padding: 0 1.6rem;
+    flex: 0 0 11.11111%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-8 {
+    padding: 0 1.6rem;
+    flex: 0 0 12.5%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-7 {
+    padding: 0 1.6rem;
+    flex: 0 0 14.28571%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-6 {
+    padding: 0 1.6rem;
+    flex: 0 0 16.66667%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-5 {
+    padding: 0 1.6rem;
+    flex: 0 0 20%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-4 {
+    padding: 0 1.6rem;
+    flex: 0 0 25%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-3 {
+    padding: 0 1.6rem;
+    flex: 0 0 33.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-2 {
+    padding: 0 1.6rem;
+    flex: 0 0 50%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1025px) {
+  .col-l-1 {
+    padding: 0 1.6rem;
+    flex: 0 0 100%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-12 {
+    padding: 0 1.6rem;
+    flex: 0 0 8.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-11 {
+    padding: 0 1.6rem;
+    flex: 0 0 9.09091%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-10 {
+    padding: 0 1.6rem;
+    flex: 0 0 10%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-9 {
+    padding: 0 1.6rem;
+    flex: 0 0 11.11111%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-8 {
+    padding: 0 1.6rem;
+    flex: 0 0 12.5%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-7 {
+    padding: 0 1.6rem;
+    flex: 0 0 14.28571%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-6 {
+    padding: 0 1.6rem;
+    flex: 0 0 16.66667%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-5 {
+    padding: 0 1.6rem;
+    flex: 0 0 20%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-4 {
+    padding: 0 1.6rem;
+    flex: 0 0 25%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-3 {
+    padding: 0 1.6rem;
+    flex: 0 0 33.33333%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-2 {
+    padding: 0 1.6rem;
+    flex: 0 0 50%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+@media screen and (min-width: 1441px) {
+  .col-xl-1 {
+    padding: 0 1.6rem;
+    flex: 0 0 100%;
+    border: 1px solid red;
+    box-sizing: border-box; } }
+.row {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1.6rem; }
+  .row:after {
+    clear: both;
+    content: '';
+    display: block; }
+  @media screen and (min-width: 1441px) {
+    .row {
+      background-color: red;
+      width: 100%;
+      max-width: 160rem; } }
+  @media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .row {
+      background-color: orange;
+      width: 100%;
+      max-width: 120rem; } }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .row {
+      background-color: yellow;
+      width: 100%; } }
+  @media only screen and (max-width: 359px) {
+    .row {
+      background-color: blue;
+      width: 100%; } }
+
+/*# sourceMappingURL=grid.css.map */
