@@ -29,5 +29,13 @@ body {
 	box-sizing: border-box;
 }
 
+span {
+	display: block;
+	background-color: #ddd;
+}
+
+.row div {
+	margin: 1em 0;
+}
 
 @import 'grid'

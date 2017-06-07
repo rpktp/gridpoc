@@ -1,5 +1,5 @@
 $total-columns: 12;
-$gutter: 1.6rem;
+$gutter: 1.5rem;
 
 $breakpointList: xs s m l xl;
 
@@ -45,7 +45,7 @@ $breakpointList: xs s m l xl;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 $gutter;
+	padding: 0;
 
 	&:after {
 		clear: both;
@@ -59,7 +59,7 @@ $breakpointList: xs s m l xl;
 	}
 	@include breakpoint(l) {
 		width: 100%;
-		max-width: 120rem;
+		max-width: 126rem;
 	}
 	@include breakpoint(m) {
 		width: 100%;
@@ -85,6 +85,17 @@ $breakpointList: xs s m l xl;
 		}
 	}
 }
+
+.col-xs {
+	padding: 0 $gutter;
+	box-sizing: border-box;
+	flex-grow: 1;
+
+	& span {
+		background-color: rgba(255,0,0,.2);
+	}
+}
+
 
 
 /* generate offsets */
