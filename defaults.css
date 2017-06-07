@@ -353,13 +353,41 @@ span {
     padding: 0 1.5rem;
     flex: 0 0 8.33333%;
     box-sizing: border-box; } }
-.col-xs {
-  padding: 0 1.5rem;
-  box-sizing: border-box;
-  flex-grow: 1; }
-  .col-xs span {
-    background-color: rgba(255, 0, 0, 0.2); }
-
+@media only screen and (min-width: 0) {
+  .col-xs {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    flex-grow: 1; }
+    .col-xs span {
+      background-color: rgba(255, 0, 0, 0.2); } }
+@media screen and (min-width: 360px) {
+  .col-s {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    flex-grow: 1; }
+    .col-s span {
+      background-color: rgba(255, 0, 0, 0.2); } }
+@media screen and (min-width: 768px) {
+  .col-m {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    flex-grow: 1; }
+    .col-m span {
+      background-color: rgba(255, 0, 0, 0.2); } }
+@media screen and (min-width: 1025px) {
+  .col-l {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    flex-grow: 1; }
+    .col-l span {
+      background-color: rgba(255, 0, 0, 0.2); } }
+@media screen and (min-width: 1441px) {
+  .col-xl {
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    flex-grow: 1; }
+    .col-xl span {
+      background-color: rgba(255, 0, 0, 0.2); } }
 /* generate offsets */
 @media only screen and (min-width: 0) {
   .col-xs-offset-11 {
