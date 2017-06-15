@@ -16,6 +16,12 @@ html {
 	font-size: $base-font;
 }
 
+label {
+	font-size: 11px;
+	margin-left: 22px;
+	color: rgba(0,0,0,.6);
+}
+
 body {
 	font-size: 1.6rem;
 	font-family: 'helvetica nueu', 'helvetica', 'arial';
@@ -35,7 +41,7 @@ span {
 }
 
 .row div {
-	margin: 1em 0;
+	margin-bottom: 1em;
 }
 
 @import 'grid'

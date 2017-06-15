@@ -1,5 +1,5 @@
 $total-columns: 12;
-$gutter: 1.5rem;
+$gutter: 1.2rem;
 
 $breakpointList: xs s m l xl;
 
@@ -39,9 +39,7 @@ $breakpointList: xs s m l xl;
 	}
 }
 
-
 .row {
-	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -73,11 +71,10 @@ $breakpointList: xs s m l xl;
 }
 
 /* generate columns */
-
 @each $breakpoint in $breakpointList {
-	@for $i from $total-columns through 1 {
-		@include breakpointMin(#{$breakpoint}) {
-		    .col-#{$breakpoint}-#{$i} {
+	@include breakpointMin(#{$breakpoint}) {
+		@for $i from $total-columns through 1 {
+		    .#{$breakpoint}#{$i} {
 		    	padding: 0 $gutter;
 		    	flex: 0 0 (100% / $total-columns) * $i;
 		        box-sizing: border-box;
@@ -86,32 +83,24 @@ $breakpointList: xs s m l xl;
 	}
 }
 
-
+/* generic column */
 @each $breakpoint in $breakpointList {
 	@include breakpointMin(#{$breakpoint}) {
-	    .col-#{$breakpoint} {
+	    .#{$breakpoint} {
 	    	padding: 0 $gutter;
 	    	box-sizing: border-box;
 	    	flex-grow: 1;
-
-	    	& span {
-	    		background-color: rgba(255,0,0,.2);
-	    	}
 	    }
 	}
 }
 
-
-
 /* generate offsets */
-
 @each $breakpoint in $breakpointList {
-	@for $i from ($total-columns - 1) through 1 {
-		@include breakpointMin(#{$breakpoint}) {
-		    .col-#{$breakpoint}-offset-#{$i} {
+	@include breakpointMin(#{$breakpoint}) {
+		@for $i from ($total-columns - 1) through 1 {
+		    .#{$breakpoint}-offset#{$i} {
 		    	margin-left: (100% / $total-columns) * $i;
 		    }
 		}
 	}
 }
-
