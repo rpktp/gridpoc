@@ -83,6 +83,17 @@ $breakpointList: xs s m l xl;
 	}
 }
 
+@each $breakpoint in $breakpointList {
+	@include breakpoint(#{$breakpoint}) {
+		@for $i from $total-columns through 1 {
+		    .#{$breakpoint}-order-#{$i} {
+		    	order: #{$i};
+		    }
+		}
+	}
+}
+
+
 /* generic column */
 @each $breakpoint in $breakpointList {
 	@include breakpointMin(#{$breakpoint}) {

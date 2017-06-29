@@ -89,13 +89,22 @@ $breakpointList: xs s m l xl;
 		    .col-#{$breakpoint}-#{$i} {
 		    	padding: 0 $gutter;
 		    	flex: 0 0 (100% / $total-columns) * $i;
-		        border: 1px solid white;
 		        box-sizing: border-box;
-		        background-color: #ddd;
 		    }
 		}
 	}
 }
+
+@each $breakpoint in $breakpointList {
+	@for $i from $total-columns through 1 {
+		@include breakpoint(#{$breakpoint}) {
+		    .order-#{$breakpoint}-#{$i} {
+		    	order: #{$i};
+		    }
+		}
+	}
+}
+
 
 
 /* generate offsets */
