@@ -1,5 +1,5 @@
 $total-columns: 12;
-$gutter: 1.2rem;
+$gutter: 1.2rem; // 12px
 
 $breakpointList: xs s m l xl;
 
@@ -45,12 +45,6 @@ $breakpointList: xs s m l xl;
 	flex-wrap: wrap;
 	padding: 0;
 
-	&:after {
-		clear: both;
-		content: '';
-		display: block;
-	}
-
 	@include breakpoint(xl) {
 		width: 100%;
 		max-width: 160rem;
@@ -83,6 +77,7 @@ $breakpointList: xs s m l xl;
 	}
 }
 
+/* order on breakpoint */
 @each $breakpoint in $breakpointList {
 	@include breakpoint(#{$breakpoint}) {
 		@for $i from $total-columns through 1 {
